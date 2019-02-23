@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @NoArgsConstructor
-//@AllArgsConstructor // че на второй конструктор ругается ?
 @Data
 public class MarvelTicketCost {
 
@@ -33,7 +32,6 @@ public class MarvelTicketCost {
             }
             System.out.println(cust.getName()+" "+cust.getBill());
         }
-
         return change;
     }
 }
