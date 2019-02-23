@@ -29,7 +29,5 @@ public class MarvelTicketCostTest {
         boolean monyBank = marvelTicketCost.getMonyBank(customers);
 
         System.out.println(monyBank);
-
     }
-
 }

@@ -10,7 +10,5 @@ import lombok.NoArgsConstructor;
 public class Customer {
 
     private String name;
-
     private int bill;
-
 }
